@@ -1,0 +1,7 @@
+{
+  "name": "headlines",
+  "version": "0.0.1",
+  "bin": {
+    "headlines": "./index.js"
+  }
+}
