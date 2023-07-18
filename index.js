@@ -22,6 +22,17 @@ const commands = {
       log("18.2.0")
     },
   },
+  rust: {
+    [apply]() {
+      // See: https://nodejs.org/dist/latest-v18.x/SHASUMS256.txt
+      // And: https://nodejs.org/dist/latest/SHASUMS256.txt
+      log("1.71.0 released July 13 2023:");
+      log("- stabilizes C-unwind.");
+      log("- stabilizes debug_visualizer attribute for embedding data structure visualizations.");
+      log("- raw-dylib linking on Windows for easier builds.");
+      log("Read more: https://blog.rust-lang.org/2023/07/13/Rust-1.71.0.html");
+    },
+  },
 };
 
 let lookup = commands;
