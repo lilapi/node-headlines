@@ -3,5 +3,9 @@
   "version": "0.0.2",
   "bin": {
     "headlines": "./index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lilapi/node-headlines"
   }
 }
