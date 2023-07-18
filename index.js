@@ -24,8 +24,7 @@ const commands = {
   },
   rust: {
     [apply]() {
-      // See: https://nodejs.org/dist/latest-v18.x/SHASUMS256.txt
-      // And: https://nodejs.org/dist/latest/SHASUMS256.txt
+      // See: https://blog.rust-lang.org
       log("1.71.0 released July 13 2023:");
       log("- stabilizes C-unwind.");
       log("- stabilizes debug_visualizer attribute for embedding data structure visualizations.");
