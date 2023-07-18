@@ -16,6 +16,16 @@ const commands = {
       // And: https://nodejs.org/dist/latest/SHASUMS256.txt
       log("LTS: 18.16.1, Latest: 20.4.0")
     },
+    lts: {
+      [apply]() {
+        // See: https://github.com/nodejs/release#release-schedule
+        log("Current LTS: 18.16.1")
+        log("👑 Version 20 takes over LTS: 2023-10-24")
+        log("🔧 Maintenance start: 2023-10-18")
+        log("💀 End of life: 2025-04-30")
+        // log("LTS start: 2022-10-25")
+      },
+    }
   },
   react: {
     [apply]() {
